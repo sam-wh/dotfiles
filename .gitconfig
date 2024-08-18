@@ -3,3 +3,14 @@
 	email = samwh@umich.edu
 [core]
 	editor = vim
+	
+[remote "origin"]
+	url = git@github.com:username/repository
+	fetch = +refs/heads/*:refs/remotes/origin/*
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	gp = log --all --decorate --graph

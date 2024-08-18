@@ -1,3 +1,6 @@
+" Call the Papercolor theme plugin. 
+" I'm using the vimplug plugin manager here. The actual setting is at the
+" end of the vimrc because I'm not fixing it.
 call plug#begin('~/.vim/plugged')
 Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
